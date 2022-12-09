@@ -2,7 +2,8 @@
 import random
 print("Welcome!!! Let's play a game")
 options = ['rock', 'paper', 'scissors']
-player2 = random(options)
+player2 = random.choice(options)
+print(player2)
 for i in range(5):
     player1 = input("Choose your answer:")
     if player1 == player2:
